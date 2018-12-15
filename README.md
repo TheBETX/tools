@@ -1,9 +1,12 @@
-# dice 下注机器人说明
-a robot for the dice game of big.game
+# BETX 骰子公平性验证说明
 
+# Install
+1. Open terminal
+1. `git clone https://github.com/TheBETX/tools.git betxTools`
+1. `cd betxTools`
+1. `npm install`
 
-一个简单的本地dice机器人示例，我们后期有空可能会增加一些策略。
+# Run
+`npm run start`
 
-直接下载dice.local.html，填写相关参数，运行即可。
-
-若您需要开发自己的机器人，可以参考“策略机器人开发指引.pdf”中的说明。
+# Guide
