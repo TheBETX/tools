@@ -1,0 +1,38 @@
+{
+  "name": "betx-fairness",
+  "version": "1.0.0",
+  "description": "Fairness verification tool for betx",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js --presets es2015,stage-2",
+    "debug": "babel-node --inspect index.js --presets es2015,stage-2",
+    "lint": "eslint --fix -- ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBETX/tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBETX/tools/issues"
+  },
+  "homepage": "https://github.com/TheBETX/tools",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "bs58": "^4.0.1",
+    "eosjs": "^20.0.0-beta2",
+    "eosjs-ecc": "^4.0.4",
+    "inquirer": "^6.2.1",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
